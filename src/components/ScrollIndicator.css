@@ -1,0 +1,10 @@
+.scroll-indicator {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 3px;
+  background: linear-gradient(to right, var(--accent3), var(--accent), var(--accent2));
+  z-index: 200;
+  transition: width 0.1s linear;
+  box-shadow: 0 2px 10px rgba(108, 99, 255, 0.45);
+}
