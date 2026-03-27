@@ -11,7 +11,7 @@ export default function Skills({ skills }) {
         <div className="skills-grid">
           {skills.map((group, i) => (
             <div className="skill-group" key={i}>
-              <div className="skill-group-title">// {group.label}</div>
+              <div className="skill-group-title">{'// '}{group.label}</div>
               <div className="skill-items">
                 {group.items.map((item, j) => (
                   <span className="skill-pill" key={j}>{item}</span>
