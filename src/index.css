@@ -18,9 +18,9 @@
   --shadow: 0 24px 55px -24px rgba(15, 34, 45, 0.45);
   --card-shadow: 0 12px 24px -16px rgba(15, 34, 45, 0.22);
   --font-body: 'Sora', sans-serif;
-  --font-display: 'Syne', sans-serif;
-  --font-serif: 'Cormorant Garamond', serif;
-  --font-mono: 'IBM Plex Mono', monospace;
+  --font-display: 'Sora', sans-serif;
+  --font-serif: 'Sora', sans-serif;
+  --font-mono: 'Sora', sans-serif;
 }
 
 * {

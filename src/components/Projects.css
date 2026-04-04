@@ -1,3 +1,14 @@
+.projects-group {
+  margin-bottom: 36px;
+}
+
+.projects-group-title {
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  margin-bottom: 16px;
+}
+
 .projects-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -85,6 +96,10 @@
 }
 
 @media (max-width: 768px) {
+  .projects-group {
+    margin-bottom: 28px;
+  }
+
   .projects-grid {
     grid-template-columns: 1fr;
   }

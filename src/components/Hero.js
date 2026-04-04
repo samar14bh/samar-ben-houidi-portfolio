@@ -16,6 +16,7 @@ export default function Hero({ data }) {
 
           <h1 className="hero-name">
             <span className="hero-name-main">Samar</span>
+            <br></br> 
             <span className="hero-name-last">Ben Houidi</span>
           </h1>
 
