@@ -25,7 +25,7 @@
 
 /* Activity Text */
 .activity-org {
-  font-size: 18px;
+  font-size: 12px;
   font-weight: 700;
   margin-bottom: 6px;
   color: #1e293b;
@@ -40,7 +40,7 @@
 }
 
 .activity-item {
-  font-size: 13px;
+  font-size: 11px;
   color: #334155;
   padding: 6px 0 6px 16px;
   position: relative;
@@ -57,7 +57,7 @@
   position: absolute;
   left: 0;
   color: #6366f1;
-  font-size: 14px;
+  font-size: 12px;
   line-height: 1;
   top: 50%;
   transform: translateY(-50%);
@@ -93,14 +93,14 @@
 
 /* Certification Text */
 .cert-title {
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 600;
   margin-bottom: 6px;
   color: #1e293b;
 }
 
 .cert-sub {
-  font-size: 12px;
+  font-size: 10px;
   font-family: var(--font-mono);
   color: #64748b;
   line-height: 1.5;
@@ -113,7 +113,7 @@
   text-decoration: none;
   background: #6366f1;
   color: white;
-  font-size: 12px;
+  font-size: 10px;
   font-weight: 600;
   padding: 6px 14px;
   border-radius: 999px;

@@ -1,5 +1,5 @@
 .stats-outer {
-  max-width: 1200px;
+  max-width: 1000px;
   margin: 0 auto 50px;
   padding: 0 20px;
   position: relative;
@@ -27,7 +27,7 @@
 }
 
 .stat-num {
-  font-size: 36px;
+  font-size: 26px;
   font-weight: 800;
   background: linear-gradient(130deg, var(--accent3), var(--accent2));
   -webkit-background-clip: text;
@@ -38,7 +38,7 @@
 }
 
 .stat-label {
-  font-size: 12px;
+  font-size: 10px;
   color: var(--muted);
   font-family: var(--font-mono);
   letter-spacing: 0.08em;
