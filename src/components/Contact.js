@@ -33,7 +33,7 @@ export default function Contact({ data }) {
       </div>
 
       <div className="contact-footer">
-        © 2025 Samar Ben Houidi · Zaghouan, Tunisia
+        © 2026 Samar Ben Houidi · Tunisia
       </div>
     </footer>
   );

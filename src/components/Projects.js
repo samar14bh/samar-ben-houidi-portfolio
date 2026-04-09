@@ -14,11 +14,22 @@ export default function Projects({ projects }) {
   const renderProjectCard = (p, i, delayBase = 0) => (
     <FadeIn key={`${p.title}-${i}`} delay={delayBase + i * 80}>
       <div className="project-card">
-        <div
-          className="project-icon"
-          style={{ background: p.colorBg }}
-        >
-          {p.icon}
+        <div className="project-media" style={{ borderColor: p.colorBorder }}>
+          <img
+            src={p.image}
+            alt={`${p.title} preview`}
+            className="project-image"
+            loading="lazy"
+            onError={(e) => {
+              e.currentTarget.style.display = 'none';
+            }}
+          />
+          <div
+            className="project-icon project-icon-fallback"
+            style={{ background: p.colorBg }}
+          >
+            {p.icon}
+          </div>
         </div>
         <div className="project-year">{p.year}</div>
         <div className="project-title">{p.title}</div>
