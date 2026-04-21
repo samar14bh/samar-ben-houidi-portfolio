@@ -28,4 +28,6 @@ Thumbs.db
 .vscode/
 .idea/
 
+src/data.js
+
 README.md
